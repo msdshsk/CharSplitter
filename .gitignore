@@ -1,0 +1,10 @@
+# Package output
+*.ccx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
