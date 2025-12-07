@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>文字分割ツール</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <sp-heading size="S">文字分割ツール</sp-heading>
+    <sp-divider size="medium"></sp-divider>
+
+    <sp-label for="inputText">テキスト入力</sp-label>
+    <sp-textfield id="inputText" placeholder="例: 期待の星"></sp-textfield>
+
+    <sp-label for="fontSize">フォントサイズ (px)</sp-label>
+    <sp-textfield id="fontSize" type="number" value="72"></sp-textfield>
+
+    <sp-label for="spacing">文字間隔 (px)</sp-label>
+    <sp-textfield id="spacing" type="number" value="80"></sp-textfield>
+
+    <sp-label for="startX">開始X座標 (px)</sp-label>
+    <sp-textfield id="startX" type="number" value="100"></sp-textfield>
+
+    <sp-label for="startY">Y座標 (px)</sp-label>
+    <sp-textfield id="startY" type="number" value="200"></sp-textfield>
+
+    <sp-button id="splitBtn" variant="cta">分割配置</sp-button>
+
+    <sp-body id="status" size="XS"></sp-body>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

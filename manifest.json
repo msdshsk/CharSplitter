@@ -1,0 +1,42 @@
+{
+  "manifestVersion": 5,
+  "id": "com.yourname.charsplitter",
+  "name": "CharSplitter - 文字分割ツール",
+  "version": "1.0.0",
+  "main": "index.html",
+  "host": [
+    {
+      "app": "PS",
+      "minVersion": "23.3.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "mainPanel",
+      "label": {
+        "default": "文字分割",
+        "ja": "文字分割"
+      },
+      "minimumSize": {
+        "width": 200,
+        "height": 250
+      },
+      "maximumSize": {
+        "width": 800,
+        "height": 600
+      },
+      "preferredDockedSize": {
+        "width": 300,
+        "height": 400
+      },
+      "preferredFloatingSize": {
+        "width": 320,
+        "height": 450
+      }
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess"
+  }
+}
